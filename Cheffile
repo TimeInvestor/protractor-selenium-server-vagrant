@@ -10,7 +10,7 @@ cookbook 'apt'
 # Custom cookbooks within this project. These specify dependencies that will
 # also be downloaded by librarian-chef.
 cookbook 'n-and-nodejs',
-  :git => 'https://github.com/TimeInvestor/n-and-nodejs-cookbook',
+  :git => 'https://github.com/TimeInvestor/n-and-nodejs-cookbook'
 
 cookbook 'protractor-selenium-server',
-  :git => 'https://github.com/TimeInvestor/protractor-selenium-server-cookbook',
+  :git => 'https://github.com/TimeInvestor/protractor-selenium-server-cookbook'
