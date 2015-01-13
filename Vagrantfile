@@ -24,7 +24,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   # Set up synced folders for the workspaces or projects that you want to test
   # with Protractor. For example:
-  #config.vm.synced_folder "/my-workspace/project", "/project"
+  config.vm.synced_folder "../", "/dashboard_test"
   #config.vm.synced_folder "/my-workspace", "/workspace"
 
   # Create a private network, which allows host-only access to the machine
